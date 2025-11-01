@@ -38,3 +38,21 @@ Se quiser, posso adicionar um `Makefile` simples para facilitar a compilação o
 
 ---
 Lucas
+
+## Arquivos no repositório
+
+Lista dos arquivos atualmente versionados na branch `main`:
+
+- .gitignore
+- CriacaoCartasTrunfo.c
+- EntradaSaidaDados.c
+- EstudoVariaveis.c
+- ExPratica1.c
+- ExPratica2.c
+- Makefile
+- OperadoresAritimeticos.c
+- OperadoresdeAtribuicao.c
+- OperadoresdeIncremento.c
+- README.md
+
+Estes são os arquivos de estudo presentes no repositório; os executáveis e as configurações locais foram removidos do versionamento e adicionados ao `.gitignore`.
