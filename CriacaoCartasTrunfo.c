@@ -5,6 +5,7 @@ int main() {
     // ====== CARTA 1 ======
     char estado1[30];
     char codigo1[10];
+    char letra1; // letra do estado (A-H)
     char cidade1[30];
     int populacao1;
     float area1;
@@ -14,16 +15,16 @@ int main() {
     printf("====== CARTA 1 ======\n");
 
     printf("Digite o nome do estado: ");
-    scanf("%s", estado1);
+    scanf("%29s", estado1);
 
     printf("Digite a letra do estado (A-H): ");
-    scanf("%s", codigo1);
+    scanf(" %c", &letra1);
 
     printf("Digite o código da carta (ex: A01): ");
-    scanf("%s", codigo1);
+    scanf("%9s", codigo1);
 
     printf("Digite o nome da cidade: ");
-    scanf("%s", cidade1);
+    scanf("%29s", cidade1);
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao1);
@@ -41,6 +42,7 @@ int main() {
     // ====== CARTA 2 ======
     char estado2[30];
     char codigo2b[10];
+    char letra2; // letra do estado (A-H)
     char cidade2[30];
     int populacao2;
     float area2;
@@ -50,16 +52,16 @@ int main() {
     printf("\n====== CARTA 2 ======\n");
 
     printf("Digite o nome do estado: ");
-    scanf("%s", estado2);
+    scanf("%29s", estado2);
 
     printf("Digite a letra do estado (A-H): ");
-    scanf("%s", codigo2b);
+    scanf(" %c", &letra2);
 
     printf("Digite o código da carta (ex: B02): ");
-    scanf("%s", codigo2b);
+    scanf("%9s", codigo2b);
 
     printf("Digite o nome da cidade: ");
-    scanf("%s", cidade2);
+    scanf("%29s", cidade2);
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao2);

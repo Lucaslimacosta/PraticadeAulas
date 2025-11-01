@@ -2,7 +2,7 @@
 
 int main(){
 
-    char nome[200];
+  char nome[200];
     int idade;
     float altura;
     float peso;
@@ -29,7 +29,7 @@ int main(){
     printf vem no início para solicitar o prompt de usuário:
     */
   printf("Qual seu nome: ");
-    scanf("%s", nome);
+    scanf("%199s", nome);
 
     printf("Então você é o(a): %s\n", nome);
 
@@ -41,8 +41,9 @@ int main(){
     printf("E qual sua altura (no lugar da virgula coloque ponto)? ");
     scanf("%f", &altura);
 
-    printf("E qual seu peso (no lugar da virgula coloque ponto)? ");
-    scanf("%e", &peso);
+  printf("E qual seu peso (no lugar da virgula coloque ponto)? ");
+  /* usar %f para leitura em float */
+  scanf("%f", &peso);
 
     printf("\nVAMOS AOS DADOS!\n");
     printf("--------------------------\n");
