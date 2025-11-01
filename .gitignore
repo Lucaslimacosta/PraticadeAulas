@@ -1,0 +1,18 @@
+.vscode/
+# binários e artefatos de compilação
+*.o
+*.out
+*.exe
+*.elf
+# Ignorar executáveis criados sem extensão (nomes usados neste projeto)
+CriacaoCartasTrunfo
+EntradaSaidaDados
+ExPratica2
+OperadoresAritimeticos
+OperadoresdeAtribuicao
+
+# backups / arquivos temporários
+*~
+# build folders
+build/
+bin/
